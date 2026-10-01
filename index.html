@@ -1,145 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Subha Mahata – Web Developer</title>
-<meta name="description" content="Portfolio of Subha Mahata, a web developer building responsive websites with HTML, CSS, JavaScript, PHP and MySQL.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Subha Mahata – Web Developer</title>
+  <meta name="description"
+    content="Portfolio of Subha Mahata, a web developer building responsive websites with HTML, CSS, JavaScript, PHP and MySQL.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Instrument+Sans:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-<header>
-  <div class="wrap bar">
-    <a href="#top" class="logo" aria-label="Subha Mahata, home">SM</a>
-    <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">&#9776;</button>
-    <nav id="nav" aria-label="Main">
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+  <header>
+    <div class="wrap bar">
+      <a href="#top" class="logo" aria-label="Subha Mahata, home">SM</a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="nav">&#9776;</button>
+      <nav id="nav" aria-label="Main">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<main id="top">
-  <!-- HERO -->
-  <section class="hero">
-    <div class="wrap">
-      <div class="intro">
-        <h1>Hi, I'm <span>Subha Mahata.</span></h1>
-        <p class="role" id="role" aria-live="off"></p>
-        <p class="lead">I build fast, responsive websites that look good on every screen, from the front end to the database behind it.</p>
-        <div class="btns">
-          <a class="btn primary" href="#projects">See my projects</a>
-          <a class="btn ghost" href="#contact">Get in touch</a>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap">
+        <div class="intro">
+          <h1>Hi, I'm <span>Subha Mahata.</span></h1>
+          <p class="role" id="role" aria-live="off"></p>
+          <p class="lead">I build fast, responsive websites that look good on every screen, from the front end to the
+            database behind it.</p>
+          <div class="btns">
+            <a class="btn primary" href="#projects">See my projects</a>
+            <a class="btn ghost" href="#contact">Get in touch</a>
+          </div>
         </div>
-      </div>
 
-      <div class="browser" aria-hidden="true">
-        <div class="chrome"><i></i><i></i><i></i><small>my-site.com</small></div>
-        <div class="stage">
-          <div class="viewport">
-            <div class="mock-nav"></div>
-            <div class="mock-hero"></div>
-            <div class="mock-grid"><b></b><b></b><b></b></div>
+        <div class="browser" aria-hidden="true">
+          <div class="chrome"><i></i><i></i><i></i><small>my-site.com</small></div>
+          <div class="stage">
+            <div class="viewport">
+              <div class="mock-nav"></div>
+              <div class="mock-hero"></div>
+              <div class="mock-grid"><b></b><b></b><b></b></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="wrap grid">
-      <div>
-        <h2>About me</h2>
-        <p>I'm a web developer who enjoys turning an idea into a clean, working website. I write the HTML and CSS for the layout, add behaviour with JavaScript, and use PHP and MySQL when a project needs a real back end.</p>
-        <p>I keep my code in Git and GitHub, and I care about pages that load quickly, work on phones, and are easy to use.</p>
-      </div>
-      <ul class="facts">
-        <li><span>Based in</span> Durgapur, West Bengal</li>
-        <li><span>Front end</span> HTML, CSS, JavaScript</li>
-        <li><span>Back end</span> PHP, MySQL</li>
-        <li><span>Tools</span> Git, GitHub</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- SKILLS (edit --lvl values to match your own level) -->
-  <section id="skills">
-    <div class="wrap">
-      <h2>Skills</h2>
-      <div class="skills-list">
-        <div class="skill" style="--lvl:90%"><label>HTML <span>90%</span></label><div class="meter"><i></i></div></div>
-        <div class="skill" style="--lvl:85%"><label>CSS <span>85%</span></label><div class="meter"><i></i></div></div>
-        <div class="skill" style="--lvl:75%"><label>JavaScript <span>75%</span></label><div class="meter"><i></i></div></div>
-        <div class="skill" style="--lvl:70%"><label>PHP <span>70%</span></label><div class="meter"><i></i></div></div>
-        <div class="skill" style="--lvl:70%"><label>MySQL <span>70%</span></label><div class="meter"><i></i></div></div>
-        <div class="skill" style="--lvl:80%"><label>Git &amp; GitHub <span>80%</span></label><div class="meter"><i></i></div></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS (replace titles, text and links with your real projects) -->
-  <section id="projects">
-    <div class="wrap">
-      <h2>Projects</h2>
-      <div class="cards">
-        <article class="card reveal">
-          <h3>Student Management System</h3>
-          <p>Add, edit and search student records with a login system and a clean admin dashboard.</p>
-          <div class="tags"><span>PHP</span><span>MySQL</span><span>CSS</span></div>
-          <a href="#" target="_blank" rel="noopener">View on GitHub</a>
-        </article>
-        <article class="card reveal">
-          <h3>Weather Dashboard</h3>
-          <p>Search any city and see the current weather and a short forecast, built with a public API.</p>
-          <div class="tags"><span>JavaScript</span><span>API</span><span>HTML</span></div>
-          <a href="#" target="_blank" rel="noopener">View on GitHub</a>
-        </article>
-        <article class="card reveal">
-          <h3>Responsive Business Site</h3>
-          <p>A mobile-first, multi-page website with a menu, image gallery and contact form.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-          <a href="#" target="_blank" rel="noopener">View on GitHub</a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="wrap grid">
-      <div>
-        <h2>Contact</h2>
-        <p>Have a project or a job opening? Send me a message and I'll reply as soon as I can.</p>
-        <ul class="links">
-          <li><a href="mailto:you@example.com">you@example.com</a></li>
-          <li><a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a></li>
+    <section class="about" id="about">
+      <div class="wrap grid">
+        <div>
+          <h2>About me</h2>
+          <p>I'm a web developer who enjoys turning an idea into a clean, working website. I write the HTML and CSS for
+            the layout, add behaviour with JavaScript, and use PHP and MySQL when a project needs a real back end.</p>
+          <p>I keep my code in Git and GitHub, and I care about pages that load quickly, work on phones, and are easy to
+            use.</p>
+        </div>
+        <ul class="facts">
+          <li><span>Based in</span> Durgapur, West Bengal</li>
+          <li><span>Front end</span> HTML, CSS, JavaScript</li>
+          <li><span>Back end</span> PHP, MySQL</li>
+          <li><span>Tools</span> Git, GitHub</li>
         </ul>
       </div>
-      <form id="form" novalidate>
-        <label class="field">Name <input type="text" name="name" autocomplete="name" required></label>
-        <label class="field">Email <input type="email" name="email" autocomplete="email" required></label>
-        <label class="field">Message <textarea name="message" required></textarea></label>
-        <button class="btn primary" type="submit">Send message</button>
-        <p class="note" id="note" role="status"></p>
-      </form>
-    </div>
-  </section>
-</main>
+    </section>
 
-<footer>
-  <div class="wrap">&copy; <span id="year"></span> Subha Mahata. Built with HTML, CSS and JavaScript.</div>
-</footer>
+    <section id="skills">
+      <div class="wrap">
+        <h2>Skills</h2>
+        <div class="skills-list">
+          <div class="skill" style="--lvl:90%"><label>HTML <span>90%</span></label>
+            <div class="meter"><i></i></div>
+          </div>
+          <div class="skill" style="--lvl:85%"><label>CSS <span>85%</span></label>
+            <div class="meter"><i></i></div>
+          </div>
+          <div class="skill" style="--lvl:75%"><label>JavaScript <span>75%</span></label>
+            <div class="meter"><i></i></div>
+          </div>
+          <div class="skill" style="--lvl:70%"><label>PHP <span>70%</span></label>
+            <div class="meter"><i></i></div>
+          </div>
+          <div class="skill" style="--lvl:70%"><label>MySQL <span>70%</span></label>
+            <div class="meter"><i></i></div>
+          </div>
+          <div class="skill" style="--lvl:80%"><label>Git &amp; GitHub <span>80%</span></label>
+            <div class="meter"><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <div class="cards">
+          <article class="card reveal">
+            <h3>Student Management System</h3>
+            <p>Add, edit and search student records with a login system and a clean admin dashboard.</p>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>CSS</span></div>
+            <a href="#" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="card reveal">
+            <h3>Weather Dashboard</h3>
+            <p>Search any city and see the current weather and a short forecast, built with a public API.</p>
+            <div class="tags"><span>JavaScript</span><span>API</span><span>HTML</span></div>
+            <a href="#" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+          <article class="card reveal">
+            <h3>Responsive Business Site</h3>
+            <p>A mobile-first, multi-page website with a menu, image gallery and contact form.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="#" target="_blank" rel="noopener">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Have a project or a job opening? Send me a message and I'll reply as soon as I can.</p>
+          <ul class="links">
+            <li><a href="mailto:you@example.com">you@example.com</a></li>
+            <li><a href="https://github.com/your-username" target="_blank" rel="noopener">github.com/your-username</a>
+            </li>
+          </ul>
+        </div>
+        <form id="form" novalidate>
+          <label class="field">Name <input type="text" name="name" autocomplete="name" required></label>
+          <label class="field">Email <input type="email" name="email" autocomplete="email" required></label>
+          <label class="field">Message <textarea name="message" required></textarea></label>
+          <button class="btn primary" type="submit">Send message</button>
+          <p class="note" id="note" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">&copy; <span id="year"></span> Subha Mahata. Built with HTML, CSS and JavaScript.</div>
+  </footer>
 
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
